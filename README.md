@@ -56,6 +56,6 @@ $ awk -f create_sample_table.awk -v eachsample_table_file=droso2017_refextable_e
 
 Then output the turtle files.
 ```
-$ cwltool --singularity rdfize_refex_entry_wf.cwl rdfize_refex_entry_wf.yml
-$ cwltool --singularity rdfize_refex_sample_wf.cwl rdfize_refex_sample_wf.yml
+$ cwltool [--singularity] rdfize_refex_entry_wf.cwl rdfize_refex_entry_wf.yml
+$ cwltool [--singularity] rdfize_refex_sample_wf.cwl rdfize_refex_sample_wf.yml
 ```
