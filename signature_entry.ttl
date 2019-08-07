@@ -1,0 +1,9 @@
+<http://refex.dbcls.jp/rdf/droso>
+	rdfs:label "RDF representation of Drosophila data in RefEx." ;
+	dcterms:contributor "Hiromasa Ono", "Shuichi Kawashima" , "Shuya Ikeda" ;
+	dcterms:created "2019-07-29" ;
+	dcterms:description "RDF representation of Drosophila data in RefEx." ;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/2.1/jp/deed.en> ;
+	dcterms:publisher <http://dbcls.rois.ac.jp/> ;
+	pav:version "2019-07-29" ;
+	foaf:page <http://refex.dbcls.jp/> .

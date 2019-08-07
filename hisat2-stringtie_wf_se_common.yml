@@ -1,0 +1,10 @@
+annotation:
+  class: File
+  path: /home/sikeda/work/refex/droso_2017/dmel-all-filtered-r6.28.fb.gff
+hisat2_idx_basedir:
+  class: Directory
+  path: /home/sikeda/work/refex/droso_2017/index/
+hisat2_idx_basename: dmel_index
+nthreads: 8
+reference_only: true
+repo: ncbi

@@ -1,0 +1,15 @@
+eachsample_table_file:
+    class: File
+    path: ./droso2017_refextable_eachsample.tsv
+entry_id_num: 53618855
+entry_table_filename: droso2017_refextable_entry.tsv
+id_uri_abbrev: ensembl
+id_uri_prefix: http://rdf.ebi.ac.uk/resource/ensembl/
+tpm_table_file:
+    class: File
+    path: ./tpm.tsv
+signature_file:
+  class: File
+  path: ./signature_entry.txt
+concatenated_filename: refex_droso2017_190729.ttl
+

@@ -1,0 +1,12 @@
+eachsample_table_file:
+  class: File
+  path: ./droso2017_refextable_eachsample.tsv
+id_uri_prefix: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=
+id_uri_abbrev: geo
+sample_table_file:
+  class: File
+  path: ./droso2017_refextable_sample.tsv
+signature_file:
+  class: File
+  path: ./signature_sample.txt
+final_output_filename: refexsample_droso2017_190729.ttl
