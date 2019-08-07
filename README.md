@@ -36,12 +36,12 @@ Generate lots of yml files for each sample. There should be a better method.
 $ awk -F "\t" '{print "run_ids: [" $3 "]\ngene_tpm_output_filename: stringtie_gene_" $1 ".tsv\noutput_filename: stringtie_out_" $1 ".tsv" > $1 ".yml"}' sampleid_run_pairs.tsv
 ```
 
-Calculate TPM values for each gene and output as stringtie_gene_SAMN*.tsv.
+Calculate TPM values for each gene and output as `stringtie_gene_SAMN*.tsv`.
 ```
 $ for f in SAMN*yml; do cat hisat2-stringtie_wf_se_common.yml $f > cat_$f; cwltool --singularity /path/to/hisat2-stringtie_wf_se.cwl cat_$f; rm $f cat_$f; done
 ```
 
-hisat2-stringtie_wf_se.cwl might fail at the fastq-dump step, because of a network problem or sth.  
+`hisat2-stringtie_wf_se.cwl` might fail at the fastq-dump step, because of a network problem or sth.  
 Ensure that all the expected files were successfully output before proceeding.
 
 Extract TPM values from the stringtie outputs and output to a single table file.
