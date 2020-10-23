@@ -1,3 +1,6 @@
+This repo is deprecated.  
+See https://github.com/sh-ikeda/refex_data_processing  
+
 # Goal
 
 Process Drosophila melanogaster RNA-seq data of https://www.ncbi.nlm.nih.gov/bioproject/PRJNA388952 into RefEx RDF format.
